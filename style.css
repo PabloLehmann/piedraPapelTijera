@@ -1,0 +1,45 @@
+#enemigo{
+    /* width: 700px; */
+    height: 350px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: red solid 1px;
+    margin-top: 10px;
+}
+#tijera{
+    height: 100px;
+    width: 100px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    background-image: url(./assets/tijera.png);
+    border-radius: 10px;
+    
+}
+#piedra{
+    height: 100px;
+    width: 100px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    background-image: url(./assets/piedra.png);
+    border-radius: 10px;
+    
+
+}
+#papel{
+    height: 100px;
+    width: 100px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    background-image: url(./assets/papel.png);
+    border-radius: 10px;
+    
+}
+.tablero{
+    background-color: aqua;
+    border: solid 2px black;
+    /* margin: 10px; */
+    border-radius: 20px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Piedra, papel o tijera</title>
+</head>
+<body>
+    
+    
+    
+    <div class="container text-center wow animate__heartBeat">
+        <h1 class="text center">Piedra, papel o tijera</h1>
+        <div class="container text-center row m-3 col-xs-12 col-sm-12 col-md-12">
+            <!-- Tablero de resultado -->
+          <div class=" tablero col col-xs-6 col-sm-6 col-md-6 row">
+            <h2>Jugador</h2>
+            <h2 id="contador">0</h2>
+          </div>
+          <div class="tablero col col-xs-6 col-sm-6 col-md-6 row">
+            <h2>Maquina</h2>
+            <h2 id="contadorEnemigo">0</h2>
+          </div>
+        </div>
+        
+        
+        <div id="enemigo" class="col container text center col-xs-12 col-sm-12 col-md-12">
+            <div>
+              <!-- Tablero de juego-->
+                <div class="tablero">
+                  <h3>Jugada</h3>
+                  <h1 id="finDeJuego"></h1>
+                </div>
+               
+                <!-- Eleccion del jugador -->
+                <div >
+                  <h3 id="eleccion"></h3>
+                </div>
+                
+                <!-- Eleccion de la maquina -->
+                <h3 id="eleccionEnemigo"> enemgo</h3>
+                
+                <!-- Resultado -->
+                <div class="wow animate__heartBeat">
+                  <h1 id="resultado"></h1>
+                </div>
+                  
+                  
+            </div>
+                  
+          </div>
+          <!-- Msj de fin de juego -->
+          <h1 id="prueba"></h1>
+
+          
+          <!-- Botones -->
+          <div class="row align-items-end m-3">
+            <div class="col">
+              <button id="piedra"></button>
+            </div>
+            <div class="col">
+              <button id="papel"></button>
+            </div>
+            <div class="col">
+              <button id="tijera"></button>
+            </div>
+          </div>
+        <!-- Boton de recargar -->
+        <input type="button" value="Recargar" onclick="location.reload()">
+       
+      </div>
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./juego.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>  
+</body>
+</html>
