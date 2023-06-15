@@ -1,14 +1,14 @@
 #enemigo{
     /* width: 700px; */
-    height: 350px;
+    height: 380px;
     background-color: blueviolet;
     border-radius: 5px;
     border: red solid 1px;
     margin-top: 10px;
 }
 #tijera{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;	
@@ -17,8 +17,8 @@
     
 }
 #piedra{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;	
@@ -28,8 +28,8 @@
 
 }
 #papel{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;	
@@ -37,9 +37,37 @@
     border-radius: 10px;
     
 }
+#botonReinicio{
+    background-color: brown;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    color: white;
+}
 .tablero{
     background-color: aqua;
     border: solid 2px black;
     /* margin: 10px; */
     border-radius: 20px;
 }
+.numJugadas{
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid yellow;
+    margin-top: 10px;
+    
+}
+ 
+.jugada{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.modal{
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    
+}
+   
+ 
