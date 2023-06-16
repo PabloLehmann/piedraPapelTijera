@@ -10,17 +10,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Piedra, papel o tijera</title>
 </head>
-<body>
+<body id="body">
     
     
     
     <div class="container text-center wow animate__heartBeat">
       <h1 class="text center">Piedra, papel o tijera</h1>
-      <div class="container text-center  col-xs-12 col-sm-12 col-md-12">
+      <div class="container text-center col-xs-12 col-sm-12 col-md-12">
         
         <!-- Tablero de resultado -->
     
-        <div class="row justify-content-between">
+        <div class="row justify-content-evenly">
           <div class="col-5 tablero">
             <h2>Jugador</h2>
             <h2 id="contador">0</h2>
@@ -60,8 +60,7 @@
           </div>
     
         </div>
-        <!-- Msj de fin de juego -->
-        <!-- <h1 id="prueba"></h1> -->
+        
     
     
         <!-- Botones -->
@@ -70,13 +69,20 @@
         <div class="container text-center mt-3">
           <div class="row justify-content-evenly">
             <div class="col-4">
-              <button id="piedra"></button>
+              <button id="piedra">
+                <img src="./assets/piedra.png" class="img-fluid" alt="...">
+              </button>
+
             </div>
             <div class="col-4">
-              <button id="papel"></button>
+              <button id="papel">
+                <img src="./assets/papel.png" class="img-fluid" alt="...">
+              </button>
             </div>
             <div class="col-4">
-              <button id="tijera"></button>
+              <button id="tijera">
+                <img src="./assets/tijera.png" class="img-fluid" alt="...">
+              </button>
             </div>
           </div>
     
@@ -96,7 +102,7 @@
 </button>
 
 <!-- Modal -->
-<div class="modal fade bg-black" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade bg-black text-center col-xs-12 col-sm-12 col-md-12" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header bg-primary">
@@ -126,7 +132,6 @@
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
     <script src="./juego.js"></script>
     <script src="js/wow.min.js"></script>
     <script>

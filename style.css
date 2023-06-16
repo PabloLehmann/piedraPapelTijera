@@ -1,40 +1,48 @@
+#body{
+    background-color: rgba(58, 134, 255, 1);
+    
+    
+}
+
 #enemigo{
     /* width: 700px; */
     height: 380px;
-    background-color: blueviolet;
-    border-radius: 5px;
-    border: red solid 1px;
+    background-color: rgba(255, 190, 11, 1);
+    border: 4px solid rgba(251, 86, 7, 1);
+    border-radius: 15px;
     margin-top: 10px;
 }
+img{
+    height: 150px;
+    width: 150px;
+}
+.imagenJuego{
+    height: 50px;
+    width: 50px;
+}
 #tijera{
-    height: 80px;
-    width: 80px;
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;	
-    background-image: url(./assets/tijera.png);
-    border-radius: 10px;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(255, 190, 11, 1);
+    border: 4px solid rgba(251, 86, 7, 1);
+    border-radius: 15px;
     
 }
 #piedra{
-    height: 80px;
-    width: 80px;
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;	
-    background-image: url(./assets/piedra.png);
-    border-radius: 10px;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(255, 190, 11, 1);
+    border: 4px solid rgba(251, 86, 7, 1);
+    border-radius: 15px;
     
 
 }
 #papel{
-    height: 80px;
-    width: 80px;
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;	
-    background-image: url(./assets/papel.png);
-    border-radius: 10px;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(255, 190, 11, 1);
+    border: 4px solid rgba(251, 86, 7, 1);
+    border-radius: 15px;
     
 }
 #botonReinicio{
@@ -42,19 +50,20 @@
     border: 2px solid yellow;
     border-radius: 20px;
     color: white;
+    width: 150px;
+    height: 100px;
 }
 .tablero{
-    background-color: aqua;
-    border: solid 2px black;
-    /* margin: 10px; */
-    border-radius: 20px;
+    border: solid 4px rgba(251, 86, 7, 1);
+    background-color: rgba(255, 190, 11, 1);
+    border-radius: 15px;
 }
 .numJugadas{
-    background-color: brown;
+    background-color: rgba(251, 86, 7, 1);
     color: white;
     border-radius: 20px;
     border: 2px solid yellow;
-    margin-top: 10px;
+    margin-top: 15px;
     
 }
  

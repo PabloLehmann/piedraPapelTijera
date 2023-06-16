@@ -9,7 +9,7 @@ let contadorEnemigo = 0;
 function piedra() {
   document.getElementById("eleccion").innerHTML = `
                                                     <div class="  p-2 m-3 text-center animate__animated animate__backInLeft">
-                                                        <H3>Elegiste piedra</H3>
+                                                        <H3>Elegiste piedra <img src="./assets/piedra.png" class="img-fluid imagenJuego" alt="..."></H3>
 
                                                     </div>
                                                 `;
@@ -70,7 +70,7 @@ function piedra() {
 function papel() {
   document.getElementById("eleccion").innerHTML = `
                                                         <div class="  p-2 m-3 text-center animate__animated animate__backInLeft">
-                                                            <H3>Elegiste papel</H3>
+                                                            <H3>Elegiste papel <img src="./assets/papel.png" class="img-fluid imagenJuego" alt="..."></H3>
 
                                                         </div>
                                                     `;
@@ -82,6 +82,7 @@ function papel() {
     document.getElementById("eleccionEnemigo").innerHTML = `
                                                         <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
                                                             <H3>El enemigo eligió piedra</H3>
+
 
                                                         </div>
                                                     `;
@@ -129,7 +130,7 @@ function papel() {
 function tijera() {
   document.getElementById("eleccion").innerHTML = `
                                                         <div class="  p-2 m-3 text-center animate__animated animate__backInLeft">
-                                                            <H3>Elegiste tijera</H3>
+                                                            <H3>Elegiste tijera <img src="./assets/tijera.png" class="img-fluid imagenJuego" alt="..."></H3>
 
                                                         </div>
                                                     `;
