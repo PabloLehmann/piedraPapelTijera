@@ -17,11 +17,11 @@ img{
     width: 150px;
 }
 .imagenJuego{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 #tijera{
-    height: 150px;
+    height: auto;
     width: 100%;
     background-color: rgba(255, 190, 11, 1);
     border: 4px solid rgba(251, 86, 7, 1);
@@ -29,7 +29,7 @@ img{
     
 }
 #piedra{
-    height: 150px;
+    height: auto;
     width: 100%;
     background-color: rgba(255, 190, 11, 1);
     border: 4px solid rgba(251, 86, 7, 1);
@@ -38,7 +38,7 @@ img{
 
 }
 #papel{
-    height: 150px;
+    height: auto;
     width: 100%;
     background-color: rgba(255, 190, 11, 1);
     border: 4px solid rgba(251, 86, 7, 1);

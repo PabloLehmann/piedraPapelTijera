@@ -9,7 +9,7 @@ let contadorEnemigo = 0;
 function piedra() {
   document.getElementById("eleccion").innerHTML = `
                                                     <div class="  p-2 m-3 text-center animate__animated animate__backInLeft">
-                                                        <H3>Elegiste piedra <img src="./assets/piedra.png" class="img-fluid imagenJuego" alt="..."></H3>
+                                                        <H5>Tu elegiste piedra <br><img src="./assets/piedra.png" class="img-fluid imagenJuego" alt="..."></H5>
 
                                                     </div>
                                                 `;
@@ -18,22 +18,22 @@ function piedra() {
 
   if (enemigo == 0) {
     document.getElementById("eleccionEnemigo").innerHTML = `
-                                                            <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
-                                                                <H3>El enemigo eligió piedra</H3>
+                                                            <div class=" row p-2 m-3 text-center animate__animated animate__backInRight">
+                                                                <H5>El eligió<br> piedra<br><img src="./assets/piedraEne.png" class="img-fluid imagenJuego" alt="..."></H5>
 
                                                             </div>
                                                         `;
   } else if (enemigo == 1) {
     document.getElementById("eleccionEnemigo").innerHTML = `
-                                                            <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
-                                                                <H3>El enemigo eligió papél</H3>
+                                                            <div class=" row p-2 m-3 text-center animate__animated animate__backInRight">
+                                                                <H5>El eligió<br> papel<br><img src="./assets/papelEne.png" class="img-fluid imagenJuego" alt="..."></H5>
 
                                                             </div>
                                                         `;
   } else if (enemigo == 2) {
     document.getElementById("eleccionEnemigo").innerHTML = `
-                                                            <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
-                                                                <H3>El enemigo eligió tijera</H3>
+                                                            <div class=" row p-2 m-3 text-center animate__animated animate__backInRight">
+                                                                <H5>El eligió<br> tijera<br><img src="./assets/tijeraEne.png" class="img-fluid imagenJuego" alt="..."></H5>
 
                                                             </div>
                                                         `;
@@ -49,7 +49,7 @@ function piedra() {
       document.getElementById("contador").innerHTML = `${contador}`;
 
       document.getElementById("resultado").innerHTML = `
-                                                        <div class="  p-2 m-3 text-center animate__animated animate__heartBeat border border-4 border-black">
+                                                        <div class="   text-center animate__animated animate__heartBeat ">
                                                             <H1>GANASTE</H1>
         
                                                         </div>
@@ -70,7 +70,7 @@ function piedra() {
 function papel() {
   document.getElementById("eleccion").innerHTML = `
                                                         <div class="  p-2 m-3 text-center animate__animated animate__backInLeft">
-                                                            <H3>Elegiste papel <img src="./assets/papel.png" class="img-fluid imagenJuego" alt="..."></H3>
+                                                            <H5>Tu elegiste papel<br><img src="./assets/papel.png" class="img-fluid imagenJuego" alt="..."></H5>
 
                                                         </div>
                                                     `;
@@ -81,7 +81,9 @@ function papel() {
   if (enemigo == 0) {
     document.getElementById("eleccionEnemigo").innerHTML = `
                                                         <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
-                                                            <H3>El enemigo eligió piedra</H3>
+                                                            
+                                                            <H5>El eligió <br>piedra<br><img src="./assets/piedraEne.png" class="img-fluid imagenJuego" alt="..."></H5>
+
 
 
                                                         </div>
@@ -89,14 +91,18 @@ function papel() {
   } else if (enemigo == 1) {
     document.getElementById("eleccionEnemigo").innerHTML = `
                                                         <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
-                                                            <H3>El enemigo eligió papel</H3>
+                                                            
+                                                            <H5>El eligió<br> papel<br><img src="./assets/papelEne.png" class="img-fluid imagenJuego" alt="..."></H5>
+
 
                                                         </div>
                                                     `;
   } else if (enemigo == 2) {
     document.getElementById("eleccionEnemigo").innerHTML = `
                                                         <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
-                                                            <H3>El enemigo eligió tijera</H3>
+                                                            
+                                                            <H5>El eligió<br> tijera<br><img src="./assets/tijeraEne.png" class="img-fluid imagenJuego" alt="..."></H5>
+
 
                                                         </div>
                                                     `;
@@ -110,7 +116,7 @@ function papel() {
       contador = contador + 1;
       document.getElementById("contador").innerHTML = `${contador}`;
       document.getElementById("resultado").innerHTML = `
-                                                        <div class="  p-2 m-3 text-center wow animate__heartBeat border border-4 border-black">
+                                                        <div class="  text-center wow animate__heartBeat">
                                                         
                                                             <H1>GANASTE</H1>
                                                         </div>
@@ -130,7 +136,7 @@ function papel() {
 function tijera() {
   document.getElementById("eleccion").innerHTML = `
                                                         <div class="  p-2 m-3 text-center animate__animated animate__backInLeft">
-                                                            <H3>Elegiste tijera <img src="./assets/tijera.png" class="img-fluid imagenJuego" alt="..."></H3>
+                                                            <H5>Tu elegiste tijera<br> <img src="./assets/tijera.png" class="img-fluid imagenJuego" alt="..."></H5>
 
                                                         </div>
                                                     `;
@@ -141,21 +147,27 @@ function tijera() {
   if (enemigo == 0) {
     document.getElementById("eleccionEnemigo").innerHTML = `
                                                         <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
-                                                            <H3>El enemigo eligió piedra</H3>
+                                                            
+                                                            <H5>El<br> eligió piedra<br><img src="./assets/piedraEne.png" class="img-fluid imagenJuego" alt="..."></H5>
+
 
                                                         </div>
                                                     `;
   } else if (enemigo == 1) {
     document.getElementById("eleccionEnemigo").innerHTML = `
                                                         <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
-                                                            <H3>El enemigo eligió papel</H3>
+                                                            
+                                                            <H5>El eligió<br> papel<br><img src="./assets/papelEne.png" class="img-fluid imagenJuego" alt="..."></H5>
+
 
                                                         </div>
                                                     `;
   } else if (enemigo == 2) {
     document.getElementById("eleccionEnemigo").innerHTML = `
                                                         <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
-                                                            <H3>El enemigo eligió tijera</H3>
+                                                            
+                                                            <H5>El eligió<br> tijera<br><img src="./assets/tijeraEne.png" class="img-fluid imagenJuego" alt="..."></H5>
+
 
                                                         </div>
                                                     `;
@@ -170,7 +182,7 @@ function tijera() {
       document.getElementById("contador").innerHTML = `${contador}`;
 
       document.getElementById("resultado").innerHTML = `
-                                                        <div class="  p-2 m-3 text-center wow animate__heartBeat border border-4 border-black">
+                                                        <div class="text-center wow animate__heartBeatk">
                                                             <H1>GANASTE</H1>
 
                                                         </div>
