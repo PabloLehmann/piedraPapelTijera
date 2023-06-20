@@ -18,22 +18,31 @@ function piedra() {
 
   if (enemigo == 0) {
     document.getElementById("eleccionEnemigo").innerHTML = `
-                                                            <div class=" row p-2 m-3 text-center animate__animated animate__backInRight">
-                                                                <H5>El eligió<br> piedra<br><img src="./assets/piedraEne.png" class="img-fluid imagenJuego" alt="..."></H5>
+                                                              <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
+                                                                                                                      
+                                                              <H5>El eligió <br>piedra<br><img src="./assets/piedraEne.png" class="img-fluid imagenJuego" alt="..."></H5>
 
-                                                            </div>
+
+
+                                                              </div>
                                                         `;
   } else if (enemigo == 1) {
     document.getElementById("eleccionEnemigo").innerHTML = `
-                                                            <div class=" row p-2 m-3 text-center animate__animated animate__backInRight">
-                                                                <H5>El eligió<br> papel<br><img src="./assets/papelEne.png" class="img-fluid imagenJuego" alt="..."></H5>
+                                                              <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
+                                                                                                                      
+                                                              <H5>El eligió <br>papel<br><img src="./assets/papelEne.png" class="img-fluid imagenJuego" alt="..."></H5>
+
+
 
                                                             </div>
                                                         `;
   } else if (enemigo == 2) {
     document.getElementById("eleccionEnemigo").innerHTML = `
-                                                            <div class=" row p-2 m-3 text-center animate__animated animate__backInRight">
-                                                                <H5>El eligió<br> tijera<br><img src="./assets/tijeraEne.png" class="img-fluid imagenJuego" alt="..."></H5>
+                                                             <div class="  p-2 m-3 text-center animate__animated animate__backInRight">
+                                                                                                                              
+                                                              <H5>El eligió <br>tijera<br><img src="./assets/tijeraEne.png" class="img-fluid imagenJuego" alt="..."></H5>
+
+
 
                                                             </div>
                                                         `;
@@ -210,7 +219,7 @@ document.getElementById("piedra").onclick = function () {
       button.click();
       document.getElementById("prueba").innerHTML = `
       
-        <div class="border border-danger">
+        <div class="">
                                                             <h1>¡Fin del juego!</h1> <br> 
                                                                     Jugador: ${contador}<br> 
                                                                     Maquina: ${contadorEnemigo}
