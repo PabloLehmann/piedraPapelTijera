@@ -219,10 +219,10 @@ document.getElementById("piedra").onclick = function () {
       button.click();
       document.getElementById("prueba").innerHTML = `
       
-        <div class="">
-                                                            <h1>¡Fin del juego!</h1> <br> 
-                                                                    Jugador: ${contador}<br> 
-                                                                    Maquina: ${contadorEnemigo}
+                                                        <div class="">
+                                                            <h4>¿Quién ganó?</h4> <br> 
+                                                            <h3> Jugador: ${contador}</h3>
+                                                            <h3>Maquina: ${contadorEnemigo}</h3>
                                                         </div>`;
     }
   }, 2000);
@@ -236,9 +236,12 @@ document.getElementById("papel").onclick = function () {
   setTimeout(() => {
     if (juego == 3) {
       button.click();
-      document.getElementById("prueba").innerHTML = `<h1>¡Fin del juego!</h1> <br> 
-                                                                      Jugador: ${contador}<br> 
-                                                                      Maquina: ${contadorEnemigo}`;
+      document.getElementById("prueba").innerHTML = ` 
+                                                <div>
+                                                      <h4>¿Quién ganó?</h4> <br> 
+                                                      <h3> Jugador: ${contador}</h3>
+                                                      <h3>Maquina: ${contadorEnemigo}</h3>
+                                                </div>`;
     }
   }, 2000);
   papel();
@@ -250,9 +253,11 @@ document.getElementById("tijera").onclick = function () {
   setTimeout(() => {
     if (juego == 3) {
       button.click();
-      document.getElementById("prueba").innerHTML = `<h1>¡Fin del juego!</h1> <br> 
-                                                                      Jugador: ${contador}<br> 
-                                                                      Maquina: ${contadorEnemigo}`;
+      document.getElementById("prueba").innerHTML = ` <div>
+                                                            <h4>¿Quién ganó?</h4> <br> 
+                                                            <h3> Jugador: ${contador}</h3>
+                                                            <h3>Maquina: ${contadorEnemigo}</h3>
+                                                      </div>`;
     }
   }, 2000);
   tijera();
