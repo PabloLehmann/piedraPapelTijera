@@ -56,7 +56,9 @@ function piedra() {
     } else if (valor == 0 && enemigo == 2) {
       contador = contador + 1;
       document.getElementById("contador").innerHTML = `${contador}`;
-
+                                               
+      
+      
       document.getElementById("resultado").innerHTML = `
                                                         <div class="   text-center animate__animated animate__heartBeat ">
                                                             <H1>GANASTE</H1>
